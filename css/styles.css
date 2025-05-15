@@ -52,7 +52,8 @@ address {
 }
 
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:active,
+.header-menu-link:focus {
     color: #404bbf;
 }
 

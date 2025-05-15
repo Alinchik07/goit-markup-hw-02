@@ -58,7 +58,6 @@ address {
 }
 
 
-=
 .header-address {}
 
 
@@ -87,6 +86,11 @@ address {
     color: #404bbf;
 }
 
+.header-address-link{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /* ======Hero section======= */
 
 .hero {

@@ -67,16 +67,23 @@ address {
 
 .header-address-item {}
 
-.header-address-link {
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+.header-address-link:hover,
+.header-address-link:focus,
+.header-address-link:active {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-address-link:hover,
-.header-address-link:active {
     color: #404bbf;
 }
 
@@ -162,7 +169,7 @@ address {
 /* ======Team section======= */
 
 .team { 
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .team-title {}
@@ -171,7 +178,9 @@ address {
     background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 
 .team-subtitle {

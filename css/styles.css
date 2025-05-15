@@ -1,7 +1,7 @@
 body {
-font-family: "Roboto", sans-serif
-color: #434455;
-background-color: #FFFFFF;
+        font-family: "Roboto", sans-serif;
+        color: #434455;
+        background: #FFFFFF;
 }
 
 ul {
@@ -34,6 +34,7 @@ address {
 }
 
 .header-logo-accent {
+    font-family: "Raleway", sans-serif;
     color: #2E2F42;
 }
 
@@ -51,14 +52,10 @@ address {
 }
 
 .header-menu-link:hover,
-:active {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.header-menu-link:active {
     color: #404bbf;
-
 }
+
 
 .header-address {}
 
@@ -67,7 +64,6 @@ address {
 
 
 .header-address-item {}
-
 
 .header-address-link {
     font-weight: 400;
@@ -78,11 +74,7 @@ address {
 }
 
 .header-address-link:hover,
-:active {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.header-address-link:active {
     color: #404bbf;
 }
 
@@ -98,7 +90,16 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .hero-btn {
@@ -107,12 +108,11 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    cursor: pointer;
 }
 
 .hero-btn:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 }
 
@@ -125,10 +125,12 @@ address {
 .past-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize #2e2f42; }
+    text-transform: capitalize;
+    color: #2e2f42; 
+}
 
 .features-list {}
 

@@ -52,13 +52,11 @@ address {
 }
 
 .header-menu-link:hover,
-.header-menu-link:active {
-    color: #404bbf;
-}
-
+.header-menu-link:active,
 .header-menu-link:focus {
     color: #404bbf;
 }
+
 
 =
 .header-address {}
@@ -170,10 +168,11 @@ address {
 .team-title {}
 
 .team-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .team-item {}
+
 
 .team-subtitle {
     text-align: center;
@@ -191,9 +190,8 @@ address {
 
 .portfolio-title {}
 
-.portfolio-list {
-    background-color: #FFFFFF
-}
+.portfolio-list{}
+
 
 .portfolio-item {}
 
